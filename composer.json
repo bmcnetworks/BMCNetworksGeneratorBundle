@@ -1,0 +1,25 @@
+{
+    "name": "bmcnetworks/generator-bundle",
+    "description": "This bundle generates code for you",
+    "keywords": [],
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fabien Potencier",
+            "email": "fabien@symfony.com"
+        },
+        {
+            "name": "Stacy Horton",
+            "email": "stacy@bmcnetworks.com"
+        }
+    ],
+    "require": {
+        "sensio/generator-bundle": "~2.5"
+    },
+    "autoload": {
+        "psr-0": { "BMCNetworks\\GeneratorBundle": "" }
+    },
+    "target-dir": "BMCNetworks/GeneratorBundle",
+    "minimum-stability": "dev"
+}
